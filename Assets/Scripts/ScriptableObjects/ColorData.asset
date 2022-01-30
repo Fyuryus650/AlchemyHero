@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79c44f1563f49045940f255b7b0cd82, type: 3}
+  m_Name: ColorData
+  m_EditorClassIdentifier: 
+  finalColor: {r: 0.2535471, g: 0.5621621, b: 0.7421875, a: 1}
+  slidVal1: 0.2535471
+  slidVal2: 0.7421875
+  slidVal3: 0.5621621

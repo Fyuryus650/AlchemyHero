@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0b05d6eb14cbfb54da30aac78e6ad9e4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fireDmg: {fileID: 11400000, guid: 27d1fdadf01e7c84fa3eb95d540cf69e, type: 2}
+  - coldDmg: {fileID: 11400000, guid: cd83aede6b1f7d94893591d02b047c32, type: 2}
+  - poisonDmg: {fileID: 11400000, guid: c640970d37545134597fead2e6d7f248, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

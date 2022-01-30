@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 302dd0654e71d2645bf25c2e01ecb008
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - colorData: {fileID: 11400000, guid: 1a6d766c685a3544b9676148508389fb, type: 2}
+  - poisonDmg: {fileID: 11400000, guid: c640970d37545134597fead2e6d7f248, type: 2}
+  - coldDmg: {fileID: 11400000, guid: cd83aede6b1f7d94893591d02b047c32, type: 2}
+  - fireDmg: {fileID: 11400000, guid: 27d1fdadf01e7c84fa3eb95d540cf69e, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
