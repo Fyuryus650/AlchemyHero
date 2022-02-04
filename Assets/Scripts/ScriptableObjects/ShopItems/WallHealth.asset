@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2efd57f4f47c4d648a2f0585defe9dbc, type: 3}
   m_Name: WallHealth
   m_EditorClassIdentifier: 
-  value: 100
+  value: 200
   canGoBelowZero: 0

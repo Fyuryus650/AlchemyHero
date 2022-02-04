@@ -29,12 +29,13 @@ public class PotionDmg : MonoBehaviour
     {
         float randomDirection = Random.Range(-1000, 1000);
         float randomForce = Random.Range(.001f, .01f);
+        rb2D.velocity = new Vector2(randomDirection, randomDirection) * 0;
         rb2D.WakeUp();
         rb2D.velocity = new Vector2(randomDirection,randomDirection) *  randomForce;
         yield return wfsObj;
         gameObject.SetActive(false);
-        StopAllCoroutines();
         rb2D.Sleep();
+        StopAllCoroutines();
     }
     private IEnumerator CollisonStart()
     {

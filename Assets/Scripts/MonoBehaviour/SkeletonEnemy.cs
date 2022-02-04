@@ -1,11 +1,14 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class SkeletonEnemy : EnemyBase
 {
     public GameObject spawnPos;
+    public UnityEvent OnDisableEvent;
+
     IEnumerator Damage()
     {
         yield return new WaitForSeconds(1f);
@@ -27,8 +30,9 @@ public class SkeletonEnemy : EnemyBase
         health = 120;
     }
 
-    private void OnDisable()
+    public void OnDisable()
     {
+        OnDisableEvent.Invoke();
         StopAllCoroutines();
     }
 }
