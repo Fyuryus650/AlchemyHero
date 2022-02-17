@@ -9,7 +9,6 @@ public class PotionScript : MonoBehaviour
     public float potionRot;
     private Rigidbody2D rgdBdy;
     public Transform startPoint;
-    private Quaternion startRotation;
     public GameObject throwOrigin;
     private void Awake()
     {   

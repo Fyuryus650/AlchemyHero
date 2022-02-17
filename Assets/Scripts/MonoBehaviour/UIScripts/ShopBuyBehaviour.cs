@@ -10,6 +10,7 @@ public class ShopBuyBehaviour : MonoBehaviour
 
     private void Awake()
     {
+        cost = costData.value;
         if(goldData.value < cost)
         {
             shopButton.enabled = false;
@@ -30,6 +31,7 @@ public class ShopBuyBehaviour : MonoBehaviour
     }
     public void UpdateShop()
     {
+        cost = costData.value;
         if (goldData.value < cost)
         {
             shopButton.interactable = false;
