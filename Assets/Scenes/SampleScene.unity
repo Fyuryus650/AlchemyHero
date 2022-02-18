@@ -304,7 +304,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -482,7 +482,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1504,7 +1504,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1955,7 +1955,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2539,7 +2539,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2792,7 +2792,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3692,7 +3692,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5646,7 +5646,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5824,7 +5824,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6169,7 +6169,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6505,7 +6505,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7035,7 +7035,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8254,7 +8254,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9399,7 +9399,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9708,7 +9708,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9886,7 +9886,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10523,7 +10523,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11244,7 +11244,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12402,7 +12402,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12580,7 +12580,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12967,7 +12967,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14399,7 +14399,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14577,7 +14577,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15046,7 +15046,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15846,7 +15846,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16344,7 +16344,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16522,7 +16522,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16860,7 +16860,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17281,7 +17281,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17459,7 +17459,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17771,7 +17771,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 812928397}
         m_TargetAssemblyTypeName: GoldCounter, Assembly-CSharp
-        m_MethodName: AddGold
+        m_MethodName: UpdateGold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
