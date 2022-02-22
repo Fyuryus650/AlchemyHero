@@ -4,23 +4,21 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class SkeletonEnemy : EnemyBase
+public class OgreEnemy : EnemyBase
 {
     public GameObject spawnPos;
     public UnityEvent OnDisableEvent;
-    public AudioSource damageSound;
 
     IEnumerator Damage()
     {
         yield return new WaitForSeconds(1f);
-        health = health - (coldDmg.value * .25f) - (fireDmg.value * 2) - (poisonDmg.value * 0);
-        damageSound.Play();
+        health = health - (coldDmg.value * .5f) - (fireDmg.value * 0) - (poisonDmg.value * 2);
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         GameObject obj = collision.gameObject;
 
-        if(obj.CompareTag("potion juice"))
+        if (obj.CompareTag("potion juice"))
         {
             StartCoroutine(Damage());
         }
