@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public List<GameObject> enemiesList;
+    public List<GameObject> skeletonsList, ogresList;
     public FloatData waveSpawnSclData;
     public IntData waveCountData;
     private EnemySpawner obj;
@@ -14,12 +14,13 @@ public class EnemySpawner : MonoBehaviour
     private void Awake()
     {
         waveCountData.value = 0;
+        waveScl = waveSpawnSclData.value;
     }
     public IEnumerator SpawnWave()
     {
         waveScl = waveSpawnSclData.value;
 
-        enemiesList[i].SetActive(true);
+        skeletonsList[i].SetActive(true);
 
         yield return new WaitForSeconds(1);
 

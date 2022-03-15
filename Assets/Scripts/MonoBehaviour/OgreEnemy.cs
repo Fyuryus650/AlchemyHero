@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -27,7 +26,7 @@ public class OgreEnemy : EnemyBase
     private void OnEnable()
     {
         transform.position = spawnPos.transform.position;
-        health = 120;
+        health = 210;
     }
 
     public void OnDisable()

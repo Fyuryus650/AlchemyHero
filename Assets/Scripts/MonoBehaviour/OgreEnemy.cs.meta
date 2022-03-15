@@ -3,7 +3,11 @@ guid: 02e44d5b2ebccfa4c952c51120b2a665
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - fireDmg: {fileID: 11400000, guid: 27d1fdadf01e7c84fa3eb95d540cf69e, type: 2}
+  - coldDmg: {fileID: 11400000, guid: cd83aede6b1f7d94893591d02b047c32, type: 2}
+  - poisonDmg: {fileID: 11400000, guid: c640970d37545134597fead2e6d7f248, type: 2}
+  - spawnPos: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
