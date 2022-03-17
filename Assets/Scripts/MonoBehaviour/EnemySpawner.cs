@@ -20,14 +20,19 @@ public class EnemySpawner : MonoBehaviour
     {
         waveScl = waveSpawnSclData.value;
 
-        skeletonsList[i].SetActive(true);
-
         yield return new WaitForSeconds(1);
+
+        skeletonsList[i].SetActive(true);
 
         Debug.Log("spawnEnemy");
         waveSpwnLimit = (waveScl * waveScl + 5 + (waveCountData.value * 1.5f));
 
         i++;
+
+        if(waveCountData.value > 3)
+        {
+            ogresList[i].SetActive(true);
+        }
 
         if (i >= (waveSpwnLimit))
         {
