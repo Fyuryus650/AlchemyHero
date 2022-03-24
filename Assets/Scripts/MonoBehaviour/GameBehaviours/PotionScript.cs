@@ -14,16 +14,13 @@ public class PotionScript : MonoBehaviour
     {   
         image = gameObject.GetComponent<SpriteRenderer>();
         image.color = Color.white;
-        gameObject.SetActive(false);
         rgdBdy = gameObject.GetComponent<Rigidbody2D>();
         rgdBdy.Sleep();
+        gameObject.SetActive(false);
     }
 
     private IEnumerator Start()
     {
-        rgdBdy.WakeUp();
-        rgdBdy.AddForce(transform.right * throwForce, ForceMode2D.Impulse);
-
         yield return new WaitForSeconds(8f);
 
         gameObject.SetActive(false);
@@ -32,6 +29,8 @@ public class PotionScript : MonoBehaviour
 
     private void OnEnable()
     {
+        rgdBdy.WakeUp();
+        rgdBdy.AddForce(transform.right * throwForce, ForceMode2D.Impulse);
         image.color = colorData.finalColor;
         transform.position = startPoint.position;
         transform.rotation = throwOrigin.transform.rotation;
